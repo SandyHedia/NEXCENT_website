@@ -1,0 +1,54 @@
+.icon-container {
+    background-image:url(img/Rectangle\ 157.svg) ; 
+    background-position: center;
+    position: relative;
+
+  }
+
+.title-style{
+    font-weight: bold;
+    color: #4d4d4d;
+
+  }
+
+
+.card-overlay {
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 85%;
+    text-align: center;
+  }
+
+
+  .buttonstyle  {
+    position: absolute;
+    top: 50%;
+    right: 0.75rem;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #fff;
+  }
+
+  input::placeholder {
+    color: #d9dbe1 !important;
+    opacity: 1; 
+  }
+
+  .icon-circle {
+    background-color: #3c464c; 
+    color: #dbdee2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
